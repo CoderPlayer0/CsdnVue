@@ -14,6 +14,11 @@ export default new Router({
       path: '/demo',
       name: 'demo',
       component: () => import("@/components/demo")
+    },
+    {
+      path: '/progressbar',
+      name: 'progressbar',
+      component: () => import("@/components/progressbar")
     }
   ]
 })
