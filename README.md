@@ -1,6 +1,11 @@
 # CsdnVue
 
-> 对比
+> Vue项目学习
+
+## 使用到的组件
+echarts：5.0.0
+vue：2.5.0
+vue-router：3.0.1
 
 ## Build Setup
 
