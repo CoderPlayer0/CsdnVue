@@ -5,7 +5,9 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css' //引入样式文件
+import axios from 'axios'
 
+Vue.prototype.$axios = axios
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 
